@@ -1,5 +1,5 @@
 
-Color code refferal link - https://dev.to/ifenna__/adding-colors-to-bash-scripts-48g4
+# Color code refferal link - https://dev.to/ifenna__/adding-colors-to-bash-scripts-48g4
 
 
 # Color	       Foreground Code	 Background Code
@@ -32,10 +32,10 @@ Color code refferal link - https://dev.to/ifenna__/adding-colors-to-bash-scripts
 
 
 # Syntax to use the color code
-# to start :  \e[
+# to start :  \e[COLORCODEm
 # to close :  \e[0m
 
-#Example:  echo -e "\e[COLORCODE This shows green \e[0m"
+#Example:  echo -e "\e[COLORCODEm This shows green \e[0m"
 
-echo -e "\e[32 This shows Green \e[0m"
+echo -e "\e[32m This shows Green \e[0m"
 
