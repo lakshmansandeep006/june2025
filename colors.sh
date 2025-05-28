@@ -36,7 +36,13 @@
 # to start :  \e[COLORCODEm
 # to close :  \e[0m
 
-#Example:  echo -e "\e[COLORCODEm This shows green \e[0m"
+#Examples:  echo -e "\e[COLORCODEm This shows green \e[0m"
+        
 
 echo -e "\e[32m This shows Green \e[0m"
 
+#color codes in variables
+GREEN="\e[32m"
+ENDCOLOR="\e[0m" 
+
+echo -e "${GREEN} This is Green ${ENDCOLOR}"
