@@ -2,7 +2,8 @@
 # Color code refferal link - https://dev.to/ifenna__/adding-colors-to-bash-scripts-48g4
 
 
-# Color	       Foreground Code	 Background Code
+               ###COLOR CODES
+#Color	       Foreground Code	 Background Code
 #Black	             30	           40
 #Red	             31	           41
 #Green	             32	           42
