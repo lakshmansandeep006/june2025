@@ -45,7 +45,7 @@ echo -e "\e[32m This shows Green color \e[0m"
 
 echo -e "\e[36m This shows cyan color \e[0m"
 
-echo -e "\e[35  This shows Magenta color \e[0m"
+echo -e "\e[35m  This shows Magenta color \e[0m"
 
 
 
