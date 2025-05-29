@@ -53,9 +53,9 @@ echo "____learning to print color code with Background color____"
 # How to Add a Background color? here is the syntax
 # echo -e "\e[BACKGROUNDcode;COLORcodem i am printing text with Backgrond color \e[0m"
 
-echo -e "\e[46;33m i am printing Text with Background color \e[0m"
+echo -e "\e[46;33m i am printing Text with cyan Background color \e[0m"
 
-echo -e "\e[102;33m i am printing Text with Background color \e[0m"
+echo -e "\e[102;33m i am printing Text with light green Background color \e[0m"
 
 
 #color codes in variables
