@@ -38,7 +38,7 @@
 
 #Examples:  echo -e "\e[COLORCODEm This shows green \e[0m"
         
-echo "____learning color code____"
+echo "____learning to print color code____"
 
 
 echo -e "\e[32m This shows Green color \e[0m"
@@ -47,6 +47,8 @@ echo -e "\e[36m This shows cyan color \e[0m"
 
 echo -e "\e[35m This shows Magenta color \e[0m"
 
+
+echo "____learning to print color code with Background color____"
 
 # How to Add a Background color? here is the syntax
 # echo -e "\e[BACKGROUNDcode;COLORcodem i am printing text with Backgrond color \e[0m"
