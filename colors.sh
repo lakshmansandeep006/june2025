@@ -55,6 +55,7 @@ echo "____learning to print color code with Background color____"
 
 echo -e "\e[46;33m i am printing Text with Background color \e[0m"
 
+echo -e "\e[102;33m i am printing Text with Background color \e[0m"
 
 
 #color codes in variables
