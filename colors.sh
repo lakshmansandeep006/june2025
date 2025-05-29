@@ -38,8 +38,16 @@
 
 #Examples:  echo -e "\e[COLORCODEm This shows green \e[0m"
         
+echo "___learning color code___"
 
-echo -e "\e[32m This shows Green \e[0m"
+
+echo -e "\e[32m This shows Green color \e[0m"
+
+echo -e "\e[36m This shows cyan color \e[0m"
+
+echo -e "\e[35  This shows Magenta color \e[0m"
+
+
 
 #color codes in variables
 GREEN="\e[32m"
