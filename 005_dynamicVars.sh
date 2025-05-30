@@ -14,9 +14,10 @@ echo "Todays date is $DATE"
 #            Thease are mostly used to allow the users to supply the value or to override teh  value 
 
 # Example :-
-
-TEAM=$1
+NAME=$1
 DEPARTMENT=$2
 
-echo "Script executed by $TEAM"
-echo "$TEAM is from $DEPARTMENT"
+echo "Script executed by $NAME"
+echo "$NAME is from $DEPARTMENT"
+
+echo "script executed by $whoami"
