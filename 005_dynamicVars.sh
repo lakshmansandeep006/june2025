@@ -16,6 +16,7 @@ echo "Todays date is $DATE"
 # Example :-
 
 TEAM=$1
-
+DEPARTMENT=$2
 
 echo "Script executed by $TEAM"
+echo "$TEAM is from $DEPARTMENT"
