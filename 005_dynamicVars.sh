@@ -19,5 +19,3 @@ DEPARTMENT=$2
 
 echo "Script executed by $NAME"
 echo "$NAME is from $DEPARTMENT"
-
-echo "script executed by $(whoami)"
