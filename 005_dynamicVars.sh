@@ -2,6 +2,20 @@
 
 # DATE="29-05-2025"    # This is called HardCoding
 
-DATE=$(date +%F)       # This is how we can dynamically, fetch the values.
+#Declaring the Dynamic value below
+DATE=$(date +%F)       #This is how we can dynamically, fetch the values.
 
-echo "Today date is $DATE"
+
+echo "Todays date is $DATE"
+
+
+
+# Arguments: Thease Arguments helps in fectching the alue from the Command line.
+#            Thease are mostly used to allow the users to supply the value or to override teh  value 
+
+# Example :-
+
+TEAM=$1
+
+
+echo "Script executed by $TEAM"
