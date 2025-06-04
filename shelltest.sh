@@ -1,12 +1,12 @@
 #!bin/bash
 
-2=sleep2
+sleep2="sleep 2"
 
 
 echo hello
-$2
+$sleep2
 echo sandeep
-$2
+$sleep2
 echo how are you 
-$2
+$sleep2
 echo hopw yo u are doing good
