@@ -8,6 +8,6 @@ echo $?                            # This is corrcet syntax
 echo "$?"                          # This is also corrcet syntax
 echo "return code status $?"       # This is also corrcet syntax
 
-echo '$?'       # This sinle quote always elimates the power of special variable
+echo '$?'       # This single quote always kills the power of special variable
 
 
